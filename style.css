@@ -1,0 +1,64 @@
+body {
+  background-image: url("download.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  h1 {
+    color: #eee;
+    display:inline-block;
+    font-family: monospace;
+  }
+
+  h2 {
+    color: #eee;
+    font-family: monospace;
+  }
+
+  h3{
+    color: #eee;
+    font-family: monospace;
+  }
+
+  section p{
+    color: #eee;
+    font-family: monospace;
+    text-align: center;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  section {
+    width: 50%;
+    text-align: center;
+  }
+
+  section{
+    animation-name: fadeInOut, moveLeft300px, bounce;
+    animation-duration: 2.5s, 5s, 1s;
+    animation-iteration-count: 2, 1, 5;
+
+  }
+  
+  footer p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: wavy;
+    font-family: monospace;
+  }
+
+  .main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  
