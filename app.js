@@ -2,12 +2,23 @@
 
 let intro = confirm("Hey there buddy, You ready to meet your hero ?");
 
-let time = prompt("What time is it ?")
+
 
 
 if (intro == true){
 let user = prompt("What is your name?");
   console.log("Go on then!");
+
+  let time = prompt("What time is it ? Enter First 2 digits only...")
+if (time <= 12){
+  alert("Good morning" + user)
+} else if (time <= 17){
+  alert("Good afternoon" + user)
+} else if (time<= 24){
+  alert("Good evening" + user)
+} else {
+  alert("We are not on mars mate💩")
+}
 
 
   let book = prompt("What is your favourite book by Tino? Late Night Organ Donor or Haunted House");
@@ -23,10 +34,11 @@ let user = prompt("What is your name?");
   default :   alert("Fake Fan Alert🚨");
 }
 */
-if (book.toLocaleLowerCase())(book == "Haunted House");{
-  alert("I see you big man!!👻 ");
-} else if (book == "Late Night Organ Donor");{
-  alert("Ouuu, you a feisty one, arent yaa?😏");
+
+if (book.toLowerCase() === "haunted house"){
+  alert("I see you big man!!👻 ")
+} else if (book === "late night organ donor"){
+  alert("Ouuu, you a feisty one, arent yaa?😏")
 } else {
   alert("Fake Fan Alert🚨");
 }
